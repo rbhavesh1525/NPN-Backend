@@ -40,3 +40,4 @@ def startup_db_check():
 @app.get("/", tags=["Health"])
 def read_root():
     return {"message": "Welcome to the Marketing Automation API! Visit /docs for API documentation."}
+
